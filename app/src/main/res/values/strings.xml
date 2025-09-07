@@ -1,0 +1,55 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Dashboard App</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+
+    <!-- Stats -->
+    <string name="sales_label">ยอดขาย</string>
+    <string name="customers_label">ลูกค้า</string>
+    <string name="sales_amount">123,230</string>
+    <string name="customer_count">239</string>
+
+    <!-- Menu Section -->
+    <string name="popular_menu_title">เมนูยอดนิยม</string>
+    <string name="menu_item_1">1. น้ำโกโก้ - 230 แก้ว</string>
+    <string name="menu_item_2">2. ชาเขียว - 212</string>
+    <string name="menu_item_3">3. ชาไทย - 205</string>
+
+    <!-- Inventory -->
+    <string name="low_stock_title">วัตถุดิบใกล้หมด</string>
+    <string name="stock_item_1">ผงโกโก้ - 200</string>
+    <string name="stock_item_2">ผงโกโก้ - 200</string>
+    <string name="stock_item_3">ผงโกโก้ - 200</string>
+    <string name="stock_item_4">ผงโกโก้ - 200</string>
+    <string name="stock_item_5">ผงโกโก้ - 200</string>
+    <string name="stock_item_6">ผงโกโก้ - 200</string>
+    <string name="stock_item_7">ผงโกโก้ - 200</string>
+    <string name="stock_item_8">ผงโกโก้ - 200</string>
+
+    <!-- Navigation -->
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_delete">Delete</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_sales_clicked">ยอดขาย: %s บาท</string>
+    <string name="toast_customers_clicked">ลูกค้าทั้งหมด: %d คน</string>
+    <string name="toast_menu_clicked">เมนูยอดนิยมและสต็อก</string>
+    <string name="toast_analytics_clicked">Analytics &amp; Reports</string>
+    <string name="toast_main_menu_clicked">Main Menu</string>
+    <string name="toast_manage_clicked">Delete &amp; Manage</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_shopping_cart">Shopping Cart Icon</string>
+    <string name="desc_person">Person Icon</string>
+    <string name="desc_analytics">Analytics Icon</string>
+    <string name="desc_menu">Menu Icon</string>
+    <string name="desc_trash">Trash Icon</string>
+    <string name="yodkai">ยอดขาย</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="yodkai_num">123,230</string>
+    <string name="customer">ลูกค้า</string>
+
+</resources>
