@@ -347,7 +347,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/nav_menu"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -358,6 +357,7 @@
             android:focusable="true">
 
             <ImageView
+                android:id="@+id/nav_menu"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
                 android:src="@drawable/ic_menu" />
@@ -365,7 +365,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/nav_delete"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -376,9 +375,10 @@
             android:focusable="true">
 
             <ImageView
+                android:id="@+id/nav_delete"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                android:src="@drawable/ic_trash" />
+                android:src="@drawable/ic_basket" />
 
         </LinearLayout>
 

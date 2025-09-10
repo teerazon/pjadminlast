@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Adminnonochanomkaimook">
         <activity
-            android:name=".PageStock"
+            android:name=".OrderStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StockActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
