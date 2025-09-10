@@ -201,16 +201,23 @@ class StockActivity : AppCompatActivity() {
     private fun loadStockData() {
         // Sample stock data
         val sampleStockItems = listOf(
-            StockItem("1", "โกโก้", 0, 0, R.drawable.logo_nono),
-            StockItem("2", "กาแฟลาเต้", 0, 0, R.drawable.logo_nono),
-            StockItem("3", "ชาเขียว", 0, 0, R.drawable.logo_nono),
-            StockItem("4", "เอสเปรสโซ่", 0, 0, R.drawable.logo_nono),
-            StockItem("5", "คาปูชิโน่", 0, 0, R.drawable.logo_nono),
-            StockItem("6", "ชาไทย", 0, 0, R.drawable.logo_nono),
-            StockItem("7", "มอคค่า", 0, 0, R.drawable.logo_nono),
-            StockItem("8", "ชาเลมอน", 0, 0, R.drawable.logo_nono),
-            StockItem("9", "แฟรปเป้", 0, 0, R.drawable.logo_nono),
-            StockItem("10", "อเมริกาโน่", 0, 0, R.drawable.logo_nono)
+            StockItem("1", "โกโก้", 0, 0, R.drawable.stock1),
+            StockItem("2", "ครีมเทียม", 0, 0, R.drawable.stock2),
+            StockItem("3", "สตอร์เบอร์รี่", 0, 0, R.drawable.stock3),
+            StockItem("4", "โยเกิร์ด", 0, 0, R.drawable.stock4),
+            StockItem("5", "โคล่า", 0, 0, R.drawable.stock5),
+            StockItem("6", "น้ำแข็ง", 0, 0, R.drawable.stock6),
+            StockItem("7", "น้ำตาล", 0, 0, R.drawable.stock7),
+            StockItem("8", "น้ำเชื่อม", 0, 0, R.drawable.stock8),
+            StockItem("9", "นมข้น", 0, 0, R.drawable.stock9),
+            StockItem("10", "นมสด", 0, 0, R.drawable.stock10),
+            StockItem("11", "ผงนมสด", 0, 0, R.drawable.stock11),
+            StockItem("12", "ผงชาเย็น", 0, 0, R.drawable.stock12),
+            StockItem("13", "ผงแคนตาลูบ", 0, 0, R.drawable.stock13),
+            StockItem("14", "ผงชาเขียว", 0, 0, R.drawable.stock14),
+            StockItem("15", "ผงเผือก", 0, 0, R.drawable.stock15),
+            StockItem("16", "ไข่มุก", 0, 0, R.drawable.stock16),
+            StockItem("17", "เยลลี่", 0, 0, R.drawable.stock17)
         )
 
         stockAdapter.updateStockItems(sampleStockItems)
